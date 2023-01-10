@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <script src="https://kit.fontawesome.com/b9fd964dfb.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="header">
+        
+        <span class="logo"> <img src="img/logo.png" /> </span>
+        <div class="openMenu"><i class="fa fa-bars"></i></div>
+        <ul class="mainMenu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <div class="closeMenu"><i class="fa fa-times"></i></div>
+        </ul>
+        
+    </div>
+    <div class="container">
+        <div class="left-box">
+            <div class="main-image-box">
+                <img src="img/mont-main.png" id="mainImage" class="main-image">
+            </div>
+            <div class="small-images">
+                <div class="image-box"><img src="img/mont-main.png" class="image"></div>
+                <div class="image-box"><img src="img/mont2.png" class="image"></div>
+                <div class="image-box"><img src="img/mont3.png" class="image"></div>
+                <div class="image-box"><img src="img/mont4.png" class="image"></div>
+            </div>
+        </div>
+        <div class="details-box">
+            <h1>Jack Wolfskin Hiking Jacket</h1>
+            <h2> Price: 200 $</h2>
+            <table cellspacing = "0" class="inputs">
+                <tr>
+                    <td>Quantity</td>
+                    <td align="right"><input type="number" id="first" placeholder="note quantity"></td>
+                </tr>
+                <tr>
+                    <td>Sub Total</td>
+                    <td align="right"><input type="number" id="second"></td>
+                </tr>
+                <tr>
+                    <td>Delivery Fees, 2%</td>
+                    <td align="right"><input type="number" id="third"></td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td align="right"><input type="number" id="fourth"></td>
+                </tr>
+            </table>
+            <h3>Specifications</h3>
+            <p>Jack Wolfskin is a German producer of outdoor wear and equipment headquartered in Idstein. It was founded in 1981 and is now one of the 
+                biggest suppliers and successful franchisers of outdoor products including sports equipment, mountain and leisure clothing, footwear, rucksacks, sleeping bags, and tents.
+                Skyrager GmbH, which also has its registered address in Idstein, is the general partner of the Partnership, limited by shares (KGAA).</p>
+            <button id="cart-btn">
+                <span class="add-to-cart">
+                    Add to cart
+                </span>
+                <span class="added">
+                    Added !
+                </span>
+                <i class="fas fa-shopping-cart"></i>
+                <i class="fas fa-box"></i>
+            </button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
